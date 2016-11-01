@@ -1,0 +1,27 @@
+-------------------------
+web service (servidor)
+-------------------------
+
+-----------------
+ciente (php)
+-----------------
+
+view->layout
+
+linea 43 y44 del nusoap-> es quien crea el servidor y los objetos
+linea 39 index
+linea 10 nusoap
+
+------------w5
+index.php
+
+ws.php
+
+
+
+
+
+
+
+
+
