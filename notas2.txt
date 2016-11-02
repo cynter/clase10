@@ -1,0 +1,36 @@
+function GuardarCD()
+{
+		//alert('hola');
+		//return;
+
+		//var id=$("#idCD").val();
+		var cantante=$("#cantante").val();
+		var titulo=$("#titulo").val();
+		var anio=$("#anio").val();
+
+		
+
+	var funcionAjax=$.ajax({
+
+		url:"nexo.php",
+		type:"post",
+		data:{
+			queHacer:"GuardarCD",
+			cantante:cantante,
+			titulo:titulo,
+			anio:anio
+		}			
+	});
+	funcionAjax.done(function(retorno){
+			
+	});	
+}
+
+
+
+------------------
+html
+js
+nexo.php
+ws (alta , baja, modificar,listado)
+clase-cd
